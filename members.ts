@@ -28,6 +28,7 @@ export const members: Member[] = [
     id: "youtube",
     name: "YouTube",
     bio: "たまに作ったものを公開する",
+    avatarSrc: "/avatars/naoko.jpg",
     sources: ["https://www.youtube.com/feeds/videos.xml?channel_id=UCDVJExPDmVXS-TVoKe49JRg"],
   },
   {
