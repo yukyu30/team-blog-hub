@@ -1,6 +1,6 @@
 export const config = {
   siteMeta: {
-    title: "yukyu-output-hub",
+    title: "yukyu hub",
     teamName: "yukyu",
     description: "yukyuが書いた記事や投稿したものを集約するサイト",
   },
