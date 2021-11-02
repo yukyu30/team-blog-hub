@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import posts from "@.contents/posts.json";
 import { config } from "@site.config";
+import {profile} from "@profile"
 import { PostItem } from "@src/types";
 import { ScrollableMembers } from "@src/components/ScrollableMembers";
 import { PostList } from "@src/components/PostList";
