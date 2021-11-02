@@ -16,10 +16,7 @@ const Page: NextPage = () => {
               <a href="https://github.com/catnose99/team-blog-hub">
                 Team Blog Hub
               </a>
-              のデモです。ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
-            </p>
-            <p>
-              Medium、note、Zenn、Qiita、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
+              をもとに作成されました。
             </p>
             <p>
               詳しくは
