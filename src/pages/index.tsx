@@ -12,6 +12,7 @@ import {
   ContentWrapper,
   UndoWrapForScroll,
 } from "@src/components/ContentWrapper";
+import { profile } from "@src/components/Profile";
 
 const Page: NextPage = () => {
   return (
@@ -32,6 +33,12 @@ const Page: NextPage = () => {
             </p>
           )}
         </ContentWrapper>
+      </section>
+
+      <section>
+      　<ContentWrapper>
+        <Profile />
+       </ContentWrapper>
       </section>
 
       <section className="home-members">
