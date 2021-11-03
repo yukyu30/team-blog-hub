@@ -2,6 +2,12 @@
     display: flex;
     justify-content:left;
 }
+.profile__avatar-img {
+    border-radius: 50%;
+  }
+.profile__content{
+    margin: 0em 1.5em;
+}
 .profile__name {
     border-radius: 0;
     width: 100%;
@@ -10,5 +16,25 @@
 }
 .profile__bio {
     font-size: 1.5rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    max-width: 500px;
+    opacity: 0.8;
+}
+.profile__links {
+    margin-top: 0.6rem;
+  }
+.profile__link {
+    margin: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--color-base-background-lighter);
+}
+.profile__link:first-child{
+    margin-left:0em;
 }
   
