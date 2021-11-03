@@ -25,7 +25,6 @@ const Page: NextPage = () => {
 
       <section className="home-hero">
         <ContentWrapper>
-          <h1 className="home-hero__title">{config.siteMeta.title}</h1>
           {!!config.siteMeta.description && (
             <p className="home-hero__description">
               {config.siteMeta.description}

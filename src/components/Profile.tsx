@@ -6,7 +6,7 @@ export const Profile: React.FC = () => {
   return (
     <div>
   
-            <div className="member-header__avatar">
+            <div className="member-header__avatar profile_flex">
               <img
                 src={profile.avatarSrc}
                 alt={profile.name.ja}
@@ -15,6 +15,7 @@ export const Profile: React.FC = () => {
                 className="member-header__avatar-img"
               />
             </div>
+            <div className="profile_flex">
             <h1 className="member-header__name">{profile.name.ja}</h1>
             <p className="member-header__bio">{profile.bio}</p>
             <div className="member-header__links">
@@ -68,6 +69,8 @@ export const Profile: React.FC = () => {
                 </a>
               )}
             </div>
+            </div>
+            
             </div>
     
   );
