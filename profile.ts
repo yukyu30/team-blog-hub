@@ -3,7 +3,7 @@ export const profile = {
       ja:"悠久",
       en:"yukyu",
     },
-    avatarUrl: "/avaters/icon.jpg",
+    avatarSrc: "/avaters/icon.jpg",
     twitterUsername: "yukyu30",
     githubUsername: "yukyu30",
     suzuriUsername: "yukyu_konpeki_dou",
