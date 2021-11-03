@@ -4,7 +4,7 @@ import { getMemberPath } from "@src/utils/helper";
 
 export const Profile: React.FC = () => {
   return (
-    <div>
+    <div className ="profile?_inner">
   
             <div className="member-header__avatar profile_flex">
               <img
