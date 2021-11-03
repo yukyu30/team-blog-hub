@@ -33,10 +33,19 @@ const Page: NextPage = () => {
         </ContentWrapper>
       </section>
 
-      <section>
+      <section className="home-profile">
       　<ContentWrapper>
-        <Profile />
-       </ContentWrapper>
+          <div className="home-section-title-container">
+            <h2 className="home-section-title">Profile</h2>
+            <Link href="https://blog.yukyu.net/me/">
+              <a className="home-section-link">See Details →</a>
+            </Link>
+          </div>
+          
+          <div className="home-profile-container">
+            <Profile />
+          </div>
+        </ContentWrapper>
       </section>
 
       <section className="home-members">
