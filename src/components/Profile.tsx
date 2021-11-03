@@ -9,7 +9,7 @@ export const ScrollableMembers: React.FC = () => {
             <div className="member-header__avatar">
               <img
                 src={profile.avatarSrc}
-                alt={nprofile.name.ja}
+                alt={profile.name.ja}
                 width={100}
                 height={100}
                 className="member-header__avatar-img"
