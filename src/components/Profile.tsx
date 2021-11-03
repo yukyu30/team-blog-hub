@@ -25,7 +25,7 @@ export const ScrollableMembers: React.FC = () => {
                 >
                   <img
                     src="/icons/twitter.svg"
-                    alt={`Twitterのユーザー@${twitterUsername}`}
+                    alt={`Twitterのユーザー@${profile.twitterUsername}`}
                     width={22}
                     height={22}
                   />
