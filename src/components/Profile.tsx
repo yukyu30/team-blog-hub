@@ -24,7 +24,7 @@ export const Profile: React.FC = () => {
           {profile.twitterUsername && (
             <a
               href={`https://twitter.com/${profile.twitterUsername}`}
-              className="member-header__link"
+              className="profile__link"
             >
               <img
                 src="/icons/twitter.svg"
@@ -37,7 +37,7 @@ export const Profile: React.FC = () => {
           {profile.githubUsername && (
             <a
               href={`https://github.com/${profile.githubUsername}`}
-              className="member-header__link"
+              className="profile__link"
             >
               <img
                 src="/icons/github.svg"
@@ -50,7 +50,7 @@ export const Profile: React.FC = () => {
           {profile.suzuriUsername && (
             <a
             　href={`https://suzuri.jp/${profile.suzuriUsername}`}
-              className="member-header__link"
+              className="profile__link"
             >
               <img
                 src="/icons/suzuri.svg"
@@ -61,7 +61,7 @@ export const Profile: React.FC = () => {
             </a>
           )}
           {profile.websiteUrl && (
-            <a href={profile.websiteUrl} className="member-header__link">
+            <a href={profile.websiteUrl} className="profile__link">
               <img
                 src="/icons/link.svg"
                 alt={`ウェブサイトのリンク`}
