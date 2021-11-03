@@ -1,4 +1,14 @@
-.profile__inner {
+.profile__container{
     display: flex;
     justify-content:left;
 }
+.profile__name {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.profile__bio {
+    font-size: 1.5rem;
+}
+  
