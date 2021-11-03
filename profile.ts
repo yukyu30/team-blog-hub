@@ -7,7 +7,7 @@ export const profile = {
     twitterUsername: "yukyu30",
     githubUsername: "yukyu30",
     suzuriUsername: "yukyu_konpeki_dou",
-    website: "https://blog.yukyu.net",
+    websiteUrl: "https://blog.yukyu.net",
     bio: "広く浅くいろんなことに興味を持つ人間",
     moredetails:"https://blog.yukyu.net/me/",
 };

@@ -18,7 +18,7 @@ export const ScrollableMembers: React.FC = () => {
             <h1 className="member-header__name">{profile.name.ja}</h1>
             <p className="member-header__bio">{profile.bio}</p>
             <div className="member-header__links">
-              {twitterUsername && (
+              {profile.twitterUsername && (
                 <a
                   href={`https://twitter.com/${profile.twitterUsername}`}
                   className="member-header__link"
@@ -31,7 +31,7 @@ export const ScrollableMembers: React.FC = () => {
                   />
                 </a>
               )}
-              {githubUsername && (
+              {profile.githubUsername && (
                 <a
                   href={`https://github.com/${profile.githubUsername}`}
                   className="member-header__link"
@@ -44,7 +44,7 @@ export const ScrollableMembers: React.FC = () => {
                   />
                 </a>
               )}
-              {suzuriUsername && (
+              {profile.suzuriUsername && (
                 <a
                   href={`https://suzuri.jp/${profile.suzuriUsername}`}
                   className="member-header__link"
@@ -57,7 +57,7 @@ export const ScrollableMembers: React.FC = () => {
                   />
                 </a>
               )}
-              {websiteUrl && (
+              {profile.websiteUrl && (
                 <a href={profile.websiteUrl} className="member-header__link">
                   <img
                     src="/icons/link.svg"
