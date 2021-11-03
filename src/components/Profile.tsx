@@ -4,7 +4,7 @@ import { getMemberPath } from "@src/utils/helper";
 
 export const Profile: React.FC = () => {
   return (
-    <div className ="profile?_inner">
+    <div className ="profile__inner">
   
             <div className="member-header__avatar profile_flex">
               <img
@@ -15,7 +15,7 @@ export const Profile: React.FC = () => {
                 className="member-header__avatar-img"
               />
             </div>
-            <div className="profile_flex">
+            <div className="profile__flex">
             <h1 className="member-header__name">{profile.name.ja}</h1>
             <p className="member-header__bio">{profile.bio}</p>
             <div className="member-header__links">
