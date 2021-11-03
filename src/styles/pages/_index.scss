@@ -28,9 +28,11 @@
   font-size: 1.1rem;
   color: var(--color-primary-text);
 }
-.home-members,.home-profile {
-  padding: 3rem 0;
+.home-members,
+.home-profile {
+  padding-bottom: 3rem 0;
 }
-.home-members-container, .home-profile-container{
+.home-members-container,
+.home-profile-container{
   margin-top: 2rem;
 }
