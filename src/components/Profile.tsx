@@ -2,7 +2,7 @@ import Link from "next/link";
 import { profile} from "@profile";
 import { getMemberPath } from "@src/utils/helper";
 
-export const ScrollableMembers: React.FC = () => {
+export const Profile: React.FC = () => {
   return (
     <div>
   
