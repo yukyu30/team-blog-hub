@@ -41,6 +41,7 @@ const Page: NextPage = () => {
               <a className="home-section-link">See Details →</a>
             </Link>
           </div>
+          
           <div className="home-profile-container">
             <Profile />
           </div>
