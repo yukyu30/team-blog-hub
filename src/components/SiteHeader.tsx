@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { config } from "@site.config";
-import { profile} from "@profile";
 import { ContentWrapper } from "@src/components/ContentWrapper";
 
 export const SiteHeader: React.FC = () => (
