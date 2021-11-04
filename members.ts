@@ -21,7 +21,7 @@ export const members: Member[] = [
     id: "note",
     name: "note",
     bio: "なんか役に立ちそうなことをまとめておく",
-    avatarSrc: "/avatars/link.svg",
+    avatarSrc: "/avatars/note.svg",
     sources: ["https://note.com/yukyu30/rss"],
   },
   {
