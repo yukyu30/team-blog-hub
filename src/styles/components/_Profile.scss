@@ -1,14 +1,15 @@
 .profile__container{
     display: flex;
     justify-content:left;
+    flex-wrap: wrap;
 }
 .profile__avatar-img {
     border-radius: 50%;
-    width:4rem;
-    height:4rem;
+    width:30%;
   }
 .profile__content{
     margin: 0em 1.5em;
+    width: 70%;
     @include mq(sm) {
         width: 100%;
     }
