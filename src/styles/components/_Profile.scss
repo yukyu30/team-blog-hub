@@ -1,9 +1,6 @@
 .profile__container{
     display: flex;
     justify-content:left;
-    @include mq(sm) {
-        width: 100%;
-    }
 }
 .profile__avatar-img {
     border-radius: 50%;
@@ -12,6 +9,9 @@
   }
 .profile__content{
     margin: 0em 1.5em;
+    @include mq(sm) {
+        width: 100%;
+    }
 }
 .profile__name {
     border-radius: 0;
