@@ -11,8 +11,6 @@ export const Profile: React.FC = () => {
         <img
           src={profile.avatarSrc}
           alt={profile.name.ja}
-          width={100}
-          height={100}
           className="profile__avatar-img"
         />
       </div>
