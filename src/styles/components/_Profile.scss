@@ -4,14 +4,18 @@
     flex-wrap: wrap;
 }
 .profile__avatar {
-    width:20%;
-    min-width: 100px;
-    margin-right:1.5em;
+    width: 120px;
+    @include mq(sm) {
+        width: 85px;
+        margin-right:1.5em;
+    }
+    
 }
 .profile__avatar-img{
     border-radius: 50%;
 }
 .profile__content{
+    flex: auto;
     @include mq(sm) {
         width: 100%;
         margin-top: 0.5em;
