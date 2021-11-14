@@ -75,7 +75,7 @@ export const Profile: React.FC = () => {
     </div>
 
       <div className ="profile__container">
-        <a href="https://blog-friends.com/users/yukyu30/" class="js-blog-friends" data-user="yukyu30">yukyu30</a>
+        <a href="https://blog-friends.com/users/yukyu30/" className="js-blog-friends" data-user="yukyu30">yukyu30</a>
         <script async src="https://unpkg.com/blog-friends-embed@latest/widgets.js" charset="utf-8"></script>
       </div>
     </div>
