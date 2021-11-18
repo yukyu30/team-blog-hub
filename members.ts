@@ -17,6 +17,13 @@ export const members: Member[] = [
     avatarSrc: "/avatars/zenn.svg",
     sources: ["https://zenn.dev/yu_9/feed"],
   },
+   {
+    id: "anchor",
+    name: "anchor.fm",
+    bio: "だらだらと話すポッドキャスト",
+    avatarSrc: "/avatars/anchor.svg",
+    sources: ["https://anchor.fm/s/6f82499c/podcast/rss"],
+  },
   {
     id: "note",
     name: "note",
@@ -31,11 +38,12 @@ export const members: Member[] = [
     avatarSrc: "/avatars/youtube.svg",
     sources: ["https://www.youtube.com/feeds/videos.xml?channel_id=UCDVJExPDmVXS-TVoKe49JRg"],
   },
-  {
-    id: "anchor",
-    name: "anchor.fm",
-    bio: "だらだらと話すポッドキャスト",
+   {
+    id: "fanbox",
+    name: "fanbox",
+    bio: "フォントやイラストなどを公開する",
     avatarSrc: "/avatars/anchor.svg",
-    sources: ["https://anchor.fm/s/6f82499c/podcast/rss"],
+    sources: ["https://fanbox.yukyu.net/rss"],
   },
+ 
 ];
