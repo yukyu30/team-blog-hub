@@ -42,7 +42,7 @@ export const members: Member[] = [
     id: "fanbox",
     name: "fanbox",
     bio: "フォントやイラストなどを公開する",
-    avatarSrc: "/avatars/anchor.svg",
+    avatarSrc: "/icons/link.svg",
     sources: ["https://fanbox.yukyu.net/rss"],
   },
  
