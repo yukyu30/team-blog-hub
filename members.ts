@@ -9,6 +9,7 @@ export const members: Member[] = [
     sources: [
       "https://blog.yukyu.net/rss.xml",
     ],
+    websiteUrl:"https://blog.yukyu.net",
   },
   {
     id: "zenn",
@@ -16,6 +17,7 @@ export const members: Member[] = [
     bio: "技術系のアウトプットを書いてます",
     avatarSrc: "/avatars/zenn.svg",
     sources: ["https://zenn.dev/yu_9/feed"],
+    websiteUrl:"https://zenn.dev/yu_9",
   },
    {
     id: "anchor",
@@ -23,6 +25,7 @@ export const members: Member[] = [
     bio: "だらだらと話すポッドキャスト",
     avatarSrc: "/avatars/anchor.svg",
     sources: ["https://anchor.fm/s/6f82499c/podcast/rss"],
+    websiteUrl:"https://anchor.fm/yukyu30",
   },
   {
     id: "note",
@@ -30,6 +33,7 @@ export const members: Member[] = [
     bio: "なんか役に立ちそうなことをまとめておく",
     avatarSrc: "/avatars/note.svg",
     sources: ["https://note.com/yukyu30/rss"],
+    websiteUrl:"https://note.com/yukyu30",
   },
   {
     id: "youtube",
@@ -37,6 +41,7 @@ export const members: Member[] = [
     bio: "たまに作ったものを公開する",
     avatarSrc: "/avatars/youtube.svg",
     sources: ["https://www.youtube.com/feeds/videos.xml?channel_id=UCDVJExPDmVXS-TVoKe49JRg"],
+    websiteUrl: "https://www.youtube.com/channel/UCDVJExPDmVXS-TVoKe49JRg",
   },
    {
     id: "fanbox",
@@ -44,6 +49,7 @@ export const members: Member[] = [
     bio: "フォントやイラストなどを公開する",
     avatarSrc: "/icons/link.svg",
     sources: ["https://fanbox.yukyu.net/rss"],
+    websiteUrl:"https://yukyu30.fanbox.cc",
   },
  
 ];
