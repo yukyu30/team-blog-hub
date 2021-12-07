@@ -43,13 +43,5 @@ export const members: Member[] = [
     sources: ["https://www.youtube.com/feeds/videos.xml?channel_id=UCDVJExPDmVXS-TVoKe49JRg"],
     websiteUrl: "https://www.youtube.com/channel/UCDVJExPDmVXS-TVoKe49JRg",
   },
-   {
-    id: "fanbox",
-    name: "fanbox",
-    bio: "フォントやイラストなどを公開する",
-    avatarSrc: "/icons/link.svg",
-    sources: ["https://fanbox.yukyu.net/rss"],
-    websiteUrl:"https://yukyu30.fanbox.cc",
-  },
  
 ];
