@@ -7,7 +7,7 @@ export const members: Member[] = [
     bio:"自分に関することを書いていくブログ",
     avatarSrc: "/avatars/blog.svg",
     sources: [
-      "https://blog.yukyu.net/rss.xml",
+      "https://yukyu.net/rss.xml",
     ],
     websiteUrl:"https://blog.yukyu.net",
   },
